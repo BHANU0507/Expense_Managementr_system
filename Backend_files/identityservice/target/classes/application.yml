@@ -1,0 +1,48 @@
+#server:
+#  port : 8004
+#  
+#springdoc:
+#  api-docs:
+#    enabled: true
+#    path: /api-docs
+#  swagger-ui:
+#    enabled: true
+#    path: /swagger-ui.html
+#    
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    service-url:
+#      default-zone : http://localhost:8761/eureka
+#    instance:
+#      preferIpAddress : true
+server:
+  port : 8004
+  
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    
+  
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      default-zone : http://localhost:8761/eureka
+    instance:
+      preferIpAddress : true
+      
+spring:
+  application:
+    name: identityservice
+        
+
+           
+           
+           
+           
+          
